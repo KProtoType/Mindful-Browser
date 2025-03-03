@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Mindful Browser",
+  "version": "1.0",
+  "description": "Delays rendering of specified websites by one minute to promote mindfulness.",
+  "permissions": [
+    "webNavigation",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html"
+}
