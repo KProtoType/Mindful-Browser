@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindful Browser - Take a Mindful Pause</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            color: #3a7bd5;
+        }
+        
+        .logo {
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-size: 18px;
+            color: #666;
+        }
+        
+        .benefits {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .steps {
+            counter-reset: step-counter;
+        }
+        
+        .step {
+            margin-bottom: 30px;
+            position: relative;
+            padding-left: 70px;
+            min-height: 60px;
+        }
+        
+        .step::before {
+            content: counter(step-counter);
+            counter-increment: step-counter;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 50px;
+            height: 50px;
+            background-color: #3a7bd5;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .step h3 {
+            margin-top: 0;
+            color: #3a7bd5;
+        }
+        
+        .example-sites {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .site-tag {
+            background-color: #eef2f7;
+            border-radius: 30px;
+            padding: 8px 15px;
+            font-size: 14px;
+            color: #3a7bd5;
+        }
+        
+        .cta {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .download-btn {
+            background-color: #3a7bd5;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+        
+        .download-btn:hover {
+            background-color: #2d62a9;
+        }
+        
+        .screenshots {
+            margin: 30px 0;
+        }
+        
+        .screenshot {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">🧘</div>
+        <h1>Mindful Browser</h1>
+        <p class="tagline">Take a mindful pause before visiting distracting websites</p>
+    </header>
+    
+    <section class="benefits">
+        <h2>Why Use Mindful Browser?</h2>
+        <p>We often find ourselves mindlessly opening social media tabs dozens of times per day out of habit, not intention. Mindful Browser adds a simple 1-minute pause before loading potentially distracting websites, giving you a chance to ask: <em>"Do I really need to check this right now?"</em></p>
+        <p>This small intervention can make a big difference in how you use the internet, helping you reclaim your time and attention.</p>
+    </section>
+    
+    <section class="steps">
+        <h2>How It Works</h2>
+        
+        <div class="step">
+            <h3>Download & Install</h3>
+            <p>Download the extension files from GitHub and install them in Chrome with just a few clicks - no coding required!</p>
+        </div>
+        
+        <div class="step">
+            <h3>Choose Your Distracting Sites</h3>
+            <p>Add patterns for websites that tend to distract you. The extension comes with Chess.com as a default, but you can add any sites you want.</p>
+            <div class="example-sites">
+                <span class="site-tag">Facebook</span>
+                <span class="site-tag">YouTube</span>
+                <span class="site-tag">Twitter/X</span>
+                <span class="site-tag">Reddit</span>
+                <span class="site-tag">Instagram</span>
+                <span class="site-tag">TikTok</span>
+            </div>
+        </div>
+        
+        <div class="step">
+            <h3>Experience the Pause</h3>
+            <p>When you visit a distracting site, you'll see a blank page with a simple message for 60 seconds. After the pause, the website will load normally.</p>
+            <p>This brief delay is often enough to break the automatic habit and make a more mindful choice.</p>
+        </div>
+    </section>
+    
+    <div class="cta">
+        <a href="https://github.com/KProtoType/Mindful-Browser/archive/refs/heads/main.zip" class="download-btn">Download Mindful Browser</a>
+        <p>Or <a href="https://github.com/KProtoType/Mindful-Browser">view on GitHub</a> for detailed instructions</p>
+    </div>
+    
+    <section class="screenshots">
+        <h2>How to Install (No Technical Knowledge Required)</h2>
+        <ol>
+            <li>Download the ZIP file using the button above</li>
+            <li>Extract the ZIP file on your computer</li>
+            <li>Open Chrome and go to chrome://extensions/</li>
+            <li>Turn on "Developer mode" in the top-right corner</li>
+            <li>Click "Load unpacked" and select the extracted folder</li>
+            <li>That's it! The extension is now installed</li>
+        </ol>
+    </section>
+    
+    <footer>
+        <p>Mindful Browser is an open-source project. <a href="https://github.com/KProtoType/Mindful-Browser">View on GitHub</a></p>
+        <p>Created to help people use the internet more intentionally.</p>
+    </footer>
+</body>
+</html>
