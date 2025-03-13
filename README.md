@@ -50,6 +50,13 @@ Mindful Browser acts like a friendly pause button for your web browsing habits:
 - `*://*.reddit.com/*` - Reddit
 - `*://*.tiktok.com/*` - TikTok
 
+## 📚 Visual Guides
+
+We've created visual guides to help you install and use Mindful Browser:
+
+- [View the main webpage](https://kprototype.github.io/Mindful-Browser/) - Easy overview of the extension
+- [Visual Installation Guide](https://kprototype.github.io/Mindful-Browser/screenshots/installation-guide.html) - Step-by-step installation instructions with images
+
 ## ❓ Questions or Problems?
 
 - If you need help, please open an "Issue" on this GitHub page by clicking the "Issues" tab at the top
