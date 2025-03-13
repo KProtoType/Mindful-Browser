@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindful Browser - Installation Guide</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #3a7bd5;
+            text-align: center;
+        }
+        
+        .step {
+            margin-bottom: 40px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .step h2 {
+            margin-top: 0;
+            color: #3a7bd5;
+            display: flex;
+            align-items: center;
+        }
+        
+        .step h2::before {
+            content: attr(data-number);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: #3a7bd5;
+            color: white;
+            border-radius: 50%;
+            margin-right: 15px;
+            font-size: 20px;
+        }
+        
+        .image-placeholder {
+            background-color: #eee;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+            border-radius: 5px;
+            border: 1px dashed #aaa;
+        }
+        
+        .tip {
+            background-color: #e8f4fd;
+            border-left: 5px solid #3a7bd5;
+            padding: 10px 15px;
+            margin-top: 15px;
+        }
+        
+        .tip h3 {
+            margin-top: 0;
+            color: #3a7bd5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Visual Installation Guide for Mindful Browser</h1>
+    
+    <div class="step">
+        <h2 data-number="1">Download the Extension</h2>
+        <p>Start by downloading the extension files from GitHub.</p>
+        <div class="image-placeholder">
+            [Image showing the GitHub Code dropdown with Download ZIP option highlighted]
+        </div>
+        <ol>
+            <li>Click the green "Code" button at the top of the GitHub page</li>
+            <li>Select "Download ZIP" from the dropdown menu</li>
+        </ol>
+        <div class="tip">
+            <h3>Tip</h3>
+            <p>The download will typically go to your Downloads folder, but you can choose a different location if prompted.</p>
+        </div>
+    </div>
+    
+    <div class="step">
+        <h2 data-number="2">Extract the ZIP File</h2>
+        <p>Find the downloaded ZIP file and extract its contents.</p>
+        <div class="image-placeholder">
+            [Image showing right-click on ZIP file with Extract All option]
+        </div>
+        <ol>
+            <li>Locate the "Mindful-Browser-main.zip" file in your Downloads folder</li>
+            <li>Right-click the file and select "Extract All..." (Windows) or double-click (Mac)</li>
+            <li>Choose a location where you want to extract the files</li>
+            <li>Click "Extract"</li>
+        </ol>
+    </div>
+    
+    <div class="step">
+        <h2 data-number="3">Open Chrome Extensions Page</h2>
+        <p>Open Google Chrome and navigate to the Extensions page.</p>
+        <div class="image-placeholder">
+            [Image showing Chrome with extensions page open]
+        </div>
+        <ol>
+            <li>Open Google Chrome</li>
+            <li>Type <code>chrome://extensions/</code> in the address bar and press Enter</li>
+            <li>Or click on the three dots menu → Extensions → Manage Extensions</li>
+        </ol>
+    </div>
+    
+    <div class="step">
+        <h2 data-number="4">Enable Developer Mode</h2>
+        <p>Turn on Developer Mode in Chrome Extensions.</p>
+        <div class="image-placeholder">
+            [Image showing the Developer mode toggle in the top right]
+        </div>
+        <ol>
+            <li>Look for the "Developer mode" toggle in the top-right corner of the Extensions page</li>
+            <li>Click to turn it ON</li>
+        </ol>
+        <div class="tip">
+            <h3>Tip</h3>
+            <p>Developer mode allows you to install extensions from outside the Chrome Web Store.</p>
+        </div>
+    </div>
+    
+    <div class="step">
+        <h2 data-number="5">Load the Extension</h2>
+        <p>Now load the extension files you extracted.</p>
+        <div class="image-placeholder">
+            [Image showing the Load unpacked button and file selection]
+        </div>
+        <ol>
+            <li>Click on the "Load unpacked" button that appears after enabling Developer mode</li>
+            <li>Navigate to the folder where you extracted the Mindful-Browser files</li>
+            <li>Select the "Mindful-Browser-main" folder (not any subfolder)</li>
+            <li>Click "Select Folder" (Windows) or "Open" (Mac)</li>
+        </ol>
+    </div>
+    
+    <div class="step">
+        <h2 data-number="6">Success!</h2>
+        <p>The Mindful Browser extension is now installed and ready to use.</p>
+        <div class="image-placeholder">
+            [Image showing the installed extension in the Chrome toolbar]
+        </div>
+        <p>By default, the extension will add a 1-minute delay when you visit Chess.com. You can customize this by clicking on the puzzle piece icon in the toolbar, finding Mindful Browser, and selecting Options.</p>
+        <div class="tip">
+            <h3>Tip</h3>
+            <p>If you want to add your own distracting websites, open the Options page and add patterns like <code>*://*.facebook.com/*</code> for Facebook or <code>*://*.youtube.com/*</code> for YouTube.</p>
+        </div>
+    </div>
+</body>
+</html>
